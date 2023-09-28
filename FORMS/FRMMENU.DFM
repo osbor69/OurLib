@@ -1,0 +1,39 @@
+inherited FormMenu: TFormMenu
+  Caption = 'FormMenu'
+  OldCreateOrder = True
+  OnResize = FormResize
+  PixelsPerInch = 120
+  TextHeight = 17
+  object RbPanel1: TRbPanel
+    Left = 48
+    Top = 32
+    Width = 609
+    Height = 393
+    MinSized = False
+    ParentSchem = True
+    CanSize = False
+    CanMove = False
+    MaxWidth = False
+    ProcentWnd = 100
+    SortMode = smDefault
+    SortObj = True
+    BevelOuter = bvNone
+    HMin = 0
+    Place = rpTop
+    SayRight = False
+    TabOrder = 0
+    WMin = 0
+    object RbStatus1: TRbStatus
+      Tag = -1
+      Left = 40
+      Top = 16
+      Width = 185
+      Height = 41
+      MinSized = False
+      ParentSchem = False
+      Schem = 'Status'
+      Alignment = taLeftJustify
+      BevelOuter = bvLowered
+    end
+  end
+end

@@ -1,0 +1,126 @@
+package ourlib;
+
+{$R *.res}
+{$R 'Schem.dcr'}
+{$R 'Browl.dcr'}
+{$R 'ButGet.dcr'}
+{$R 'ChkGets.dcr'}
+{$R 'Codegets.dcr'}
+{$R 'ComboGet.dcr'}
+{$R 'Dateget.dcr'}
+{$R 'FPanel.dcr'}
+{$R 'GenForm.dcr'}
+{$R 'Keylb.dcr'}
+{$R 'KeyMenu.dcr'}
+{$R 'MemoGet.dcr'}
+{$R 'MnDrwGet.dcr'}
+{$R 'PnlEdit.dcr'}
+{$R 'RecDB.dcr'}
+{$R 'SpdBtGet.dcr'}
+{$R 'SpGet.dcr'}
+{$R 'SpinGet.dcr'}
+{$R 'DefEdit.dcr'}
+{$R 'TreePrim.dcr'}
+{$R 'ModelGet.dcr'}
+{$R 'StrBrowl.dcr'}
+{$R 'DirGet.dcr'}
+{$R 'MultiGet.dcr'}
+{$R 'RbMenu.dcr'}
+{$R 'arrget.dcr'}
+{$R 'FFdp.dcr'}
+{$R 'FFldEdit.dcr'}
+{$R 'IconGet.dcr'}
+{$R 'TreeDir.dcr'}
+{$R 'PswdGet.dcr'}
+{$ALIGN 8}
+{$ASSERTIONS OFF}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Библиотека'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl,
+  vcldb,
+  vclsmp,
+  dsnap,
+  dclstd,
+  tee,
+  bdertl,
+  ibxpress,
+  rtl,
+  FIBPlus7,
+  designide,
+  vclactnband,
+  vclx,
+  indy,
+  dclaxserver,
+  dbrtl;
+
+contains
+  Schem in 'Schem.pas',
+  Browl in 'Browl.pas',
+  Brquery in 'Brquery.pas',
+  ButGet in 'ButGet.pas',
+  ChkGets in 'ChkGets.pas',
+  Codegets in 'Codegets.pas',
+  ComboGet in 'ComboGet.pas',
+  Dateget in 'Dateget.pas',
+  FPanel in 'FPanel.pas',
+  GenForm in 'GenForm.pas',
+  Keylb in 'Keylb.pas',
+  KeyMenu in 'KeyMenu.pas',
+  MemoGet in 'MemoGet.pas',
+  MnDrwGet in 'MnDrwGet.pas',
+  PnlEdit in 'PnlEdit.pas',
+  RbScroll in 'RbScroll.pas',
+  RecDB in 'RecDB.pas',
+  SpdBtGet in 'SpdBtGet.pas',
+  SpGet in 'SpGet.pas',
+  SpinGet in 'SpinGet.pas',
+  DefEdit in 'DefEdit.pas',
+  RbPage in 'RbPage.pas',
+  TreePrim in 'TreePrim.pas',
+  ModelGet in 'ModelGet.pas',
+  StrBrowl in 'StrBrowl.pas',
+  DirGet in 'DirGet.pas',
+  MultiGet in 'MultiGet.pas',
+  RbMenu in 'RbMenu.pas',
+  ArrGet in 'arrget.pas',
+  FFdp in 'FFdp.pas',
+  DlgStLs in 'DsgnIntf\DLGSTLS.PAS',
+  StLsProp in 'DsgnIntf\StLsProp.pas',
+  StrProp in 'DsgnIntf\StrProp.pas',
+  CompProp in 'DsgnIntf\CompProp.pas',
+  FFldEdit in 'FFldEdit.pas',
+  mulqry in 'MulQry.pas',
+  IconGet in 'IconGet.pas',
+  InfoBrw in 'DsgnIntf\InfoBrw.pas',
+  TreeDir in 'TreeDir.pas',
+  DECReg in 'DECReg.pas',
+  MskProp in '..\MskProp.pas',
+  ButForms in '..\ButForms.PAS',
+  FHelpLs in '..\FORMS\FHelpLs.pas',
+  MenuGet in 'MenuGet.pas',
+  FDirTree in '..\FORMS\FDirTree.pas',
+  PswdGet in 'PswdGet.pas';
+
+end.
